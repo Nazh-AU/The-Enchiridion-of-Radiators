@@ -7,23 +7,15 @@ A short handbook for radiators and fans in SFF.
 - [Test Setup](#test-setup)
 - [Testing Methodology](#testing-methodology)
 - [Formulating Meaningful Numbers](#formulating-meaningful-numbers)
-- [Radiator and Fan Testing](radiator-and-fan-testing)
+- [Radiator and Fan Testing](#radiator-and-fan-testing)
 
 ### Introduction and Intention
 
-I'm gonna do stuff
-
 ### Test Setup
-
-More stuff here
 
 ### Testing Methodology
 
-To™?
-
 ### Formulating Meaningful Numbers
-
-Attempt to add weighted values to fans/radiator combinations.
 
 ### Radiator and Fan Testing
 This section will include several Radiator and Fan combinations.
