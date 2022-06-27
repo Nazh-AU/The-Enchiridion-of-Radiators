@@ -1,7 +1,6 @@
 # The Enchiridion of Watercooling.
 A short handbook for radiators and fans in SFF.
 
------
 ## Compendiun
 - [Introduction and Intention](#introduction-and-intention)
 - [Test Setup](#test-setup)
