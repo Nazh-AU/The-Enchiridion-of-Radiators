@@ -11,11 +11,19 @@ A short handbook for radiators and fans in SFF.
 
 ### Introduction and Intention
 
+I'm gonna do stuff
+
 ### Test Setup
+
+More stuff here
 
 ### Testing Methodology
 
+To™?
+
 ### Formulating Meaningful Numbers
+
+Attempt to add weighted values to fans/radiator combinations.
 
 ### Radiator and Fan Testing
 This section will include several Radiator and Fan combinations.
