@@ -9,15 +9,15 @@ A short handbook for radiators and fans in SFF.
 - [Formulating Meaningful Numbers](#formulating-meaningful-numbers)
 - [Radiator and Fan Testing](radiator-and-fan-testing)
 
-###Introduction and Intention
+### Introduction and Intention
 
-###Test Setup
+### Test Setup
 
-###Testing Methodology
+### Testing Methodology
 
-###Formulating Meaningful Numbers
+### Formulating Meaningful Numbers
 
-###Radiator and Fan Testing
+### Radiator and Fan Testing
 This section will include several Radiator and Fan combinations.
 
 [XSPC TX240](https://www.xs-pc.com/radiators-tx-series/tx240-ultrathin-radiator)
