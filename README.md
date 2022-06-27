@@ -11,13 +11,22 @@ A short handbook for radiators and fans in SFF.
 
 ### Introduction and Intention
 
+Stuff
+
 ### Test Setup
+
+More stuff
 
 ### Testing Methodology
 
+To™?
+
 ### Formulating Meaningful Numbers
 
+stat weights?
+
 ### Radiator and Fan Testing
+
 This section will include several Radiator and Fan combinations.
 
 [XSPC TX240](https://www.xs-pc.com/radiators-tx-series/tx240-ultrathin-radiator)
