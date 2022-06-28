@@ -19,7 +19,7 @@ I do feel that I want to establish that the testing conducted is intentionally n
 
 The extent of the configurations of Radiator, Fans and Radiator Layout will be elaborated on in later sections. I plan to make all the information as palatable as possible so that all can make use of it. If you have any suggestions or questions, please don't hesitate to reach out, All input is appreciated.
 
-Thank you for your for your time,
+Thank you for your time,
 
 *Nazh*
 
