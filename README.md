@@ -8,10 +8,20 @@ A short handbook for radiators and fans in SFF.
 - [Testing Methodology](#testing-methodology)
 - [Formulating Meaningful Numbers](#formulating-meaningful-numbers)
 - [Radiator and Fan Testing](#radiator-and-fan-testing)
+- [Results](#results)
+- [Summary](#summary)
 
 ### Introduction and Intention
 
-Stuff
+Welcome! The intention of this document is to have an ongoing repository for the testing of the many radiators that are recommended for SFF. There's a substantial amount of anecdotal evidence floating around in regards to radiator choice, fan choice and the arrangement of both. With testing and comparison, I hope that this document can serve to inform and guide the choices for SFF Watercooling.
+
+I do feel that I want to establish that the testing conducted is intentionally niche for a few reasons. The radiators and fans tested will largely revolve around compatibility with Sandwich layout cases, Primarily the FormD T1V2. The testing configurations will reflect the compatibility of the T1V2 or similar Sandwich layout cases, i.e. Jimu. This will include the more popular recommended radiators, Fan orientations and the feasibility of Dual Radiator Layouts. That's not to say that I won't test other radiators and fans in the future, I would in fact love to have a large volume of information on the many offerings outside the ones stated. It just isn't a current priority.
+
+The extent of the configurations of Radiator, Fans and Radiator Layout will be elaborated on in later sections. I plan to make all the information as palatable as possible so that all can make use of it. If you have any suggestions or questions, please don't hesitate to reach out, All input is appreciated.
+
+Thank you for your for your time,
+
+*Nazh*
 
 ### Test Setup
 
@@ -43,6 +53,16 @@ This section will include several Radiator and Fan combinations.
 [Barrow Dabel-20b 240](http://www.barrowint.com/product/lengpai/BARROWlingpai/1758.html)
 
 [Alphacool ST20 HPE 240](https://www.au.aquatuning.com/water-cooling/radiators/radiators-active/240mm/28994/alphacool-nexxxos-st20-hpe-full-copper-240mm-radiator?c=25261)
+
+### Results
+
+### Summary
+
+### Afterthoughts
+
+### Acknowledgements
+
+### Changelog
 
 
 
