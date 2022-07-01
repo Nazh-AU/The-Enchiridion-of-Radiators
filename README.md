@@ -25,7 +25,17 @@ Thank you for your time,
 
 ### Test Setup
 
-More stuff
+The test setup used will be as follows for all of the tests conducted unless stated otherwise.
+
+- 11900KF with Barrow pump-block combo with an EK DDC3.2 Elite
+- Gigabyte Z590i Aorus ITX motherboard
+- GTX 770 With EK waterblock
+- 32GB of Some ram
+- An NVME SSD
+- Corsair SF750 SFX PSU
+- GECKO AIR ITX
+
+Fans and Radiators will be changed as needed so they won't be invluded in this list. 
 
 ### Testing Methodology
 
