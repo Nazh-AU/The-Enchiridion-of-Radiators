@@ -43,7 +43,9 @@ As will be explained in the Testing Methodology, There is a set of variables tha
 
 ### Testing Methodology
 
-To™?
+I would like to use this section to walk you through the theory of my testing and hopefully get you to a place by the end that will give you an intuitive understanding on how to interpret the data I present. I will do this through several stages as a way to refine my own testing methodology, So this may change by the end of writting.
+
+![Aquasuite Overlay](ASoverlay.png)
 
 ### Formulating Meaningful Numbers
 
