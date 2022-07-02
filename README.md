@@ -45,7 +45,43 @@ As will be explained in the Testing Methodology, There is a set of variables tha
 
 I would like to use this section to walk you through the theory of my testing and hopefully get you to a place by the end that will give you an intuitive understanding on how to interpret the data I present. I will do this through several stages as a way to refine my own testing methodology, So this may change by the end of writting.
 
+#### Aquasuite
+
 ![Aquasuite Overlay](ASoverlay.png)
+
+Shown above is a User Interface that I configured to show the data currently being tracked (will most likely evolve with time, Image is mostly for demonstration purposes) for the testing of the fans and radiators. Most should be relatively self explanatory but for the sake of this being educational I will outline some of the more important elements.
+
+The top row, CPU Package Power, GPU Power (Total) and the CPU+GPU Load is the primamry represntation of the Heat Load or Watts for the testing. This value is intened to be fixed throughout the testing in order to provide consistant results. The current Wattage I am looking to test with is 210W on the GPU using Furmark and 125W on the CPU using Prime95. Totalling 325 Watts of heat which I feel is a good representation of the current gaming loads with current CPU and GPU hardware.
+
+![Aquasuite Virtual Software Sensors](ASVSS.png)
+
+As you can see above, Aquasuite allows you to configure Software Virtual Sensors in order to take some of the work out of interpreting the output data. This Software Sensor gives an easier way of tracking the Load of both the CPU and GPU combined. This can be especially helpful for calculating the Average Load across the length of a test in order to ensure consistant results.
+
+If I were to snip out the 30 minute sample for a test and it turned out that the Average Load wasnt within the intended 325W +/- 5% then those results would be discarded and the test would need to be repeated. The use of these Software Sensors serves as an essential part of streamlining the data processing on my end and should help to convey the data to you in a more palattable way.
+
+#### Pump Speed
+
+With the introduction of Aquasuite and the variables presented, I would like to demonstrate how I intend to use the data by working through a series of tests to determine the speed of the DDC pump for the testing going forward.
+We will do that by using these data points which should give us an indication on what speed will serve best for testing.
+- Pump Speed (RPM)
+- CPU Temperature (°C)
+- GPU Temperature (°C)
+- Ambient Temperature (°C)
+- Coolant Temperature In (°C)
+- Coolant Temperature Out (°C)
+- Coolant Delta (°C) - This is calculated through a Software Sensor by taking the average of the Coolant In/Out and subtracting the Ambienbt Temperature.
+- Fan speed will be fixed at 1200RPM for this test
+
+Testing will proceed as follows.
+1. Allow AC to get ambient to the desired temperature (approximately 22°C)
+2. Perform 15 minutes of presoak bencharks in order to ensure all coolant is "heatsoaked"
+3. Wait another 15 minutes to allow equalisation of temperatures whilst adjusting the test parameters. In this case, A fixed fan Speed (RPM) and a Fixed Pump Speed (RPM).
+
+
+
+
+
+  
 
 ### Formulating Meaningful Numbers
 
