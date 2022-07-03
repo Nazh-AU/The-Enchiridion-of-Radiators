@@ -62,20 +62,50 @@ If I were to snip out the 30 minute sample for a test and it turned out that the
 #### Pump Speed
 
 With the introduction of Aquasuite and the variables presented, I would like to demonstrate how I intend to use the data by working through a series of tests to determine the speed of the DDC pump for the testing going forward.
-We will do that by using these data points which should give us an indication on what speed will serve best for testing.
+We will do that by using these data points which should give you an indication on what speed will serve best for testing.
 - Pump Speed (RPM)
 - CPU Temperature (°C)
 - GPU Temperature (°C)
 - Ambient Temperature (°C)
 - Coolant Temperature In (°C)
 - Coolant Temperature Out (°C)
-- Coolant Delta (°C) - This is calculated through a Software Sensor by taking the average of the Coolant In/Out and subtracting the Ambienbt Temperature.
+- Coolant Delta (°C) - This is calculated through a Software Sensor by taking the average of the Coolant In/Out and subtracting the Ambient Temperature.
 - Fan speed will be fixed at 1200RPM for this test
 
 Testing will proceed as follows.
 1. Allow AC to get ambient to the desired temperature (approximately 22°C)
 2. Perform 15 minutes of presoak bencharks in order to ensure all coolant is "heatsoaked"
-3. Wait another 15 minutes to allow equalisation of temperatures whilst adjusting the test parameters. In this case, A fixed fan Speed (RPM) and a Fixed Pump Speed (RPM).
+3. Wait another 15 minutes to allow equalisation of temperatures whilst adjusting the test parameters. In this case, A fixed fan Speed (RPM) and a Fixed Pump Speed (RPM).(In this example I did not do this but that will be explained.)
+4. Enable both Prime95 and Furmark to achieve the required Test Wattage of 325W
+5. Log data for 30 minutes
+
+![DDCPumpSpeedTest](DDCRPMTest.png)
+
+Whilst there is a lot data presented in this screenshot, The areas of focus will be the Pump RPM, The Coolant In, The Coolant Out and the GPU Core. The Total Load in Watts, The Fan RPM and Ambient Temperature remain mostly consistant through the whole test so they shall be ignored.
+
+What we can see is a series of adjustments to the DDC Pumps Speed (RPM) and the effects that has. The Test begun with the Pump set at 1500 RPM and was changed to 2500 RPM, 3500 RPM and 4500RPM. You can see that even though the Coolant in and Coolant Out change in reaction to the Pump RPM, the Coolant Delta remains practically the same. Why is that? The Coolant Delta, Which is the difference in Coolant Temperature from the Ambient Temperature, Is calculated by take the average of the Coolant In and Coolant Out and subtracting the Ambient Temperature from that. So the changes in the Coolant In and Coolant Out cancel each other out meaning that the coolant is essentially reaching equilibrium quicker by pumping the coolant faster through the loop. The lack of change in Coolant Delta indicates that so far as the In and Out temperature is concerned, The Pump speed is essentially irrelevant (aside from having higher temperature coolant in parts of your loop).
+
+The same cannot be said for the focus of this test, The GPU Core. You can see the reduction of the GPU Core across the length of the test in correlation to the pumps RPM. From 1500 RPM to 2500 RPM we see a reduction from 67°C to 61°C, 2500 RPM to 3500 RPM a reduction from 61°C to 58°C and from 3500 RPM to 4500 RPM a reduction of from 58 to 56°C. We can make assertions from this data regarding what might be considered to be an optimal pump speed or at the very least a bare minimum RPM to operate your pump at. For future testing the pump shall be kept at 3500 RPM as that seems to offer the best improvement on component temperature. There is of course the noise to be taking into consideration which is going to be a higher priority than several degrees on their components, which is completely understandable.
+
+Each loop is going to be different and every person will have their own desires for the information presented in this section. It is not all encompassing but hopefully gives you a primer to conduct some of your own tests to find a pump speed that works for you and your components.
+
+#### Benchmarking Radiators and Fans
+
+As established above, the testing methodology will be further fleshed out to build a profile for the fans and radiators being tested. The way this will be done is through a series of tests which I shall outline and then perform.
+
+##### Interval RPM Testing
+
+This portion of the testing will take a fixed Wattage and a Fixed RPM for the fans at certain intervals to plot their effectiveness on a graph. The RPM of the fans will operate at 800, 1000, 1200 and 1400 RPM which will be plotted against other radiator and fan combinations and give an indication as to which Radiators perform best at certain RPM. The aforementioned 325W target may not be suitable for this test as 325W is a lot to ask of a fan running at 800 RPM. A more appropriate value will be used in order to obtain the results at all stages of the testing.
+
+##### Max RPM
+
+This test will be similar to the above but shall be closer to a stress test scenario, Seeing how well the Radiator and Fan combinations perform at their highest RPM. This might need to have a higher Wattage in order to fully see just what each Radiator is or isn't capable of.
+
+##### Gaming Scenario   
+
+With this test the goal is to recreate something akin to a gaming session by using a predetermined Fan curve based on the Coolant Temperature. Up to 30°C fans will remain at 800 RPM and will increase over time with the Coolant Temperature to a maximum of 45°C and 1400 RPM.
+
+
 
 
 
