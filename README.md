@@ -109,15 +109,15 @@ With this test the goal is to recreate something akin to a gaming session by usi
 
 As established above, Here is a 30 minute log of the TX240 radiator with two NF-A12x25 fans in a push configuration.
 
-![TX240AquasuiteSC](TX240 with NF-A12x25 x 2 Push 800rpm 30minute.png)
+![TX240AquasuiteSC](TX240withNF-A12x25x2Push800rpm30minute.png)
 
 It shows an initial presoak of the coolant followed by a cooling off peroid and finally the 30 minute log of data below.
 
-![TX240excel](TX240 with NF-A12x25 x 2 Push 800rpm 30minute excel.png)
+![TX240excel](TX240withNF-A12x25x2Push800rpm30minuteexcel.png)
 
 This is how the raw data looks after it's been processed (trimmed the data to the 30 minutes of testing). This data will always be kept and available with any and all testing to ensure tranparency throughout all of the tests performed.
 
-![TX240Linegraph](TX240 with NF-A12x25 x 2 Push 800rpm 30minute.jpg)
+![TX240Linegraph](TX240withNF-A12x25x2Push800rpm30minute.jpg)
 
 The image shown here is how I intend to distill down the information to it's most useful. We can see the Ambient Temperature has remained consistant and we get an idea of how well the radiator and fans have performed over the course of the 30 minutes. It shows that at a fixed RPM of 800, The NF-A12x25's are able to cool 325W with the maximum Coolant Temperature reaching 48.61°C and a maximum Coolant Delta of 25.48°C. These numbers will become more relevant when we compare them against other RPM's as well as other fan and radiator combinations.
 
